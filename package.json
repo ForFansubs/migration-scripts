@@ -1,0 +1,25 @@
+{
+  "name": "migration-scripts",
+  "version": "0.0.1",
+  "description": "Migration scripts for FFs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForFansubs/migration-scripts.git"
+  },
+  "author": "ayberktandogan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ForFansubs/migration-scripts/issues"
+  },
+  "homepage": "https://github.com/ForFansubs/migration-scripts#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "mariadb": "^2.3.1",
+    "standard-slugify": "^2.0.0"
+  }
+}

@@ -253,7 +253,7 @@ module.exports = async function CreateMetacontentCanvas({ type, slug, background
     }
     ctx.shadowBlur = 12;
     ctx.shadowColor = "rgba(0,0,0,.5)";
-    if (cover_art) drawImageProp(ctx, cover_art, width - 400, 130, 250, 350);
+    if (cover_art) drawImageProp(ctx, cover_art, width - 350, 130, 250, 350);
     // Draw logo
     let logo_image = null
     try {

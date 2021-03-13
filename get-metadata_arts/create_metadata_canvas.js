@@ -223,12 +223,23 @@ module.exports = async function CreateMetacontentCanvas({
     ctx.fillStyle = "#FF00C1";
     ctx.font = "36px Source Sans Pro";
     ctx.fillText(content.studios, 100, 260 + studioPosition * 60);
+    // Draw credits
+    // Credits styles
+    ctx.fillStyle = "#FFF";
+    ctx.font = "22px Source Sans Pro";
+    wrapText(
+        ctx,
+        "Çevirmen: " + content.translators,
+        100,
+        height - 162,
+        650,
+        24
+    );
+    wrapText(ctx, "Encoder: " + content.encoders, 100, height - 132, 650, 24);
     // Draw genres
     // Genre styles
     ctx.fillStyle = "#ccc";
     ctx.font = "16px Source Sans Pro";
-    ctx.fillText(content.translators, 110, height - 162);
-    ctx.fillText(content.encoders, 110, height - 142);
     // Define index and genreWidth for later use of genre placement
     let index = 0;
     let genreWidth = 0;

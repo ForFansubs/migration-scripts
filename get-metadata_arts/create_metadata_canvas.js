@@ -227,8 +227,8 @@ module.exports = async function CreateMetacontentCanvas({
     // Genre styles
     ctx.fillStyle = "#ccc";
     ctx.font = "16px Source Sans Pro";
-    ctx.fillText(content.translator, 110, height - 162);
-    ctx.fillText(content.translator, 110, height - 142);
+    ctx.fillText(content.translators, 110, height - 162);
+    ctx.fillText(content.encoders, 110, height - 142);
     // Define index and genreWidth for later use of genre placement
     let index = 0;
     let genreWidth = 0;

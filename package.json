@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ForFansubs/migration-scripts#readme",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "canvas": "^2.6.1",
     "dotenv": "^8.2.0",
     "mariadb": "^2.3.1",
